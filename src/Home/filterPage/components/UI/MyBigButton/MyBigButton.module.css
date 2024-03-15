@@ -1,0 +1,22 @@
+
+
+
+.myBtn {
+    width: calc(100% - 20px);
+    padding: 16px;
+    background: linear-gradient(to right, #FB527B, #FEE03B );
+    margin-bottom: 20px;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 16px; /* 133.333% */
+    text-transform: uppercase;
+}
+
+.ntclown {
+    display: inline-block;
+    width: 100%;
+    padding-left: 20px;
+}

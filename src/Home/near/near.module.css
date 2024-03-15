@@ -1,0 +1,128 @@
+
+.header {
+    width: 100%;
+    padding: 20px;
+    
+  }
+  .header__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__icon{
+    padding: 12px;
+    height: 44px;
+    padding-bottom: 0;
+    border-radius: 16px;
+    border-radius: 44px;
+    background:  rgba(17, 17, 17, 0.20);
+    backdrop-filter: blur(6.111111164093018px);
+  }
+
+.main{
+    
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+.title{
+    color: #454243;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.nearPlace{
+    border-radius: 16px;
+    border: 1px solid #ECECEC;
+    padding: 16px;
+    /* width: 335px; */
+    /* margin: 0 auto; */
+    /* font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #454243; */
+    /* width: 335px; */width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    
+    font-family: 'Inter';
+}
+.nearPlace span{
+    color: #FB527B;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+grid-column-gap: 16px;
+grid-row-gap: 16px;
+}
+.card{
+    position: relative;
+    
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+}
+.asd{
+    width: 100%;
+}
+.mainLike{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 12px;
+    backdrop-filter: blur(6.111111164093018px);
+    border-radius: 100%;
+}
+.position{
+    position: absolute;
+    color: white;
+    backdrop-filter: blur(7.111111164093018px);
+    bottom: 90px;
+    left: 8px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    border-radius: 16px;
+}
+
+
+.mainText{
+    margin-top: 8px;
+    color: var(--tags, #ABABAB);
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; 
+    text-transform: uppercase;
+}.mainMatin{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.mainSub{
+    overflow: hidden;
+    color:  #454243;
+    text-overflow: ellipsis;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+}
+
+@media screen and (max-width: 320px) {
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
